@@ -1,0 +1,32 @@
+{
+  "name": "tsc-transform-sample",
+  "version": "1.0.0",
+  "description": "Sample project to show TypeScript compiler transform API",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "prestart": "npm run build",
+    "start": "node out/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/origami-z/tsc-transform-sample.git"
+  },
+  "keywords": [
+    "tsc",
+    "transform",
+    "typescript"
+  ],
+  "author": "Zhihao Cui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/origami-z/tsc-transform-sample/issues"
+  },
+  "homepage": "https://github.com/origami-z/tsc-transform-sample#readme",
+  "dependencies": {
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^15.3.0"
+  }
+}
