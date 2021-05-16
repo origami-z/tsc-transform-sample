@@ -1,5 +1,7 @@
 # TypeScript compile API Transform Sample
 
+[![build](https://github.com/origami-z/tsc-transform-sample/actions/workflows/build.yml/badge.svg)](https://github.com/origami-z/tsc-transform-sample/actions/workflows/build.yml)
+
 TypeScript compile API (`tsc`) offers `transform` to apply AST transformation. Hope this repo will help you to write your own transform. You may want to check [microsoft/TypeScript-wiki](https://github.com/microsoft/TypeScript-wiki/blob/master/Using-the-Compiler-API.md) to see more API explanation.
 
 ## Develop
